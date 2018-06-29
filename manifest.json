@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "aiTab",
+    "version": "0.1",
+    "description": "An all-in-one tab that displays the best information",
+    "author": "Ariel Infante",
+    "homepage_url": "http://www.arielinfante.com",
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "content_security_policy": "script-src 'self' https://api.unsplash.com/photos/random/; object-src 'self'",
+    "offline_enabled": true,
+    "permissions": [
+        "storage",
+        "activeTab",
+        "https://ajax.googleapis.com/"
+    ]
+}
