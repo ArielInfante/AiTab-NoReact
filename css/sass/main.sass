@@ -1,0 +1,62 @@
+@font-face
+  font-family: "Oxygen", sans-serif
+  src: url("https://fonts.googleapis.com/css?family=Oxygen:400,700")
+
+.vertical-align
+  display: table-cell
+  vertical-align: middle
+
+.main-container
+  padding-top: 150px
+  
+  .container
+    margin-bottom: 20px
+
+    &:last-of-type
+      margin-bottom: 0
+
+.logo
+  justify-content: center
+
+  img
+    width: 256px
+    height: 256px
+
+.speed-dial
+  .dial-list
+    align-items: center
+    justify-content: center
+
+    .dial-item
+      list-style: none
+      // border: 1px solid #000
+      // backgorund-color: #fff
+      color: #000
+      text-align: center
+      // padding: 20px 3px
+      margin-right: 25px
+      // flex-basis: 135px
+      display: table
+
+      &:last-of-type
+        margin-right: 0
+
+      a
+        text-decoration: none
+        color: #000
+        text-align: center
+        display:table-cell
+        vertical-align: middle
+
+        &:hover
+          text-decoration: none
+
+          h3
+            -webkit-text-fill-color: #000
+            -webkit-text-stroke-color: #fff
+
+        h3
+          font-weight: bold
+          -webkit-text-fill-color: #fff
+          -webkit-text-stroke-width: 1px
+          -webkit-text-stroke-color: #000
