@@ -1,4 +1,7 @@
 jQuery(document).ready(function($) {
+
+  $('.unsplash').unsplashBackground();
+
   function searchEvent(e) {
     var textSearch = $('#search-text').val();
     console.log(textSearch);

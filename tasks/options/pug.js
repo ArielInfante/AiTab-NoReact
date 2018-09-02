@@ -10,7 +10,7 @@ module.exports = {
             expand: true,
             cwd: 'pug/',
             src: '**/*.pug',
-            dest: '',
+            dest: 'build/',
             ext: '.html'
         }]
     }

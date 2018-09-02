@@ -23,6 +23,13 @@ module.exports = {
             spawn: false,
         }
     },
+    json: {
+        files: ['*.json'],
+        tasks: ['json', 'jsonmin'],
+        options: {
+            spawn: false,
+        }
+    },
     images: {
         files: ['images/**/*.{png,jpg,gif}', 'images/*.{png,jpg,gif}'],
         tasks: ['imagemin'],

@@ -21,6 +21,7 @@ module.exports = {
             'npm install grunt-autoprefixer --save-dev',
             'npm install grunt-csscomb --save-dev',
             'npm install grunt-contrib-cssmin --save-dev',
+            'npm install grunt-json --save-dev',
         ].join('&&')
     }
 }
